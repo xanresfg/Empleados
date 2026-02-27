@@ -8,7 +8,7 @@ public class Programador extends Empelado {
 
     @Override
     public double calcularSalario(){
-        return 110*super.salarioBase/100;
+        return 110*super.calcularSalario()/100;
     }
 
     @Override
