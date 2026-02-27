@@ -22,4 +22,10 @@ public class Empelado {
     public void setSalarioBase(double salarioBase) {
         this.salarioBase = salarioBase;
     }
+
+    @Override
+    public String toString(){
+        return "El empleado " + this.nombre + " cobra " + this.salarioBase + "€ de salario base.";
+
+    }
 }
