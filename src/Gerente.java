@@ -13,4 +13,9 @@ public class Gerente extends Empelado {
     public void setDepartamento(String departamento) {
         this.departamento = departamento;
     }
+
+    @Override
+    public double calcularSalario(){
+        return super.calcularSalario() + 500;
+    }
 }
