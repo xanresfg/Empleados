@@ -18,4 +18,8 @@ public class Gerente extends Empelado {
     public double calcularSalario(){
         return super.calcularSalario() + 500;
     }
+
+    public String toString(){
+        return super.toString() + " Su departamento es " + this.departamento;
+    }
 }
