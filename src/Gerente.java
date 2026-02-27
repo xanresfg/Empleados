@@ -5,4 +5,12 @@ public class Gerente extends Empelado {
         super(nombre, salarioBase);
         this.departamento = departamento;
     }
+
+    public String getDepartamento() {
+        return departamento;
+    }
+
+    public void setDepartamento(String departamento) {
+        this.departamento = departamento;
+    }
 }

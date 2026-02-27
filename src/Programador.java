@@ -6,6 +6,14 @@ public class Programador extends Empelado {
         this.lenguajeDominante = lenguajeDominante;
     }
 
+    public String getLenguajeDominante() {
+        return lenguajeDominante;
+    }
+
+    public void setLenguajeDominante(String lenguajeDominante) {
+        this.lenguajeDominante = lenguajeDominante;
+    }
+
     @Override
     public double calcularSalario(){
         return 110*super.calcularSalario()/100;
